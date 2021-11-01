@@ -1,0 +1,14 @@
+$primary-color: hsl(225, 100%, 94%);
+$secondary-color: hsl(225, 100%, 98%);
+$primaty-accent: hsl(245, 75%, 52%);
+$secondary-accent: hsl(223, 47%, 23%);
+$main-font: 'Red Hat Display',
+sans-serif;
+$radius : 15px;
+
+//Set box shadow
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width: 500px) {
+
+  .container {
+    background-image: url('/images/pattern-background-mobile.svg');
+  }
+
+  .card {
+    max-width: 310px;
+
+    .content {
+      padding: 15px;
+    }
+  }
+
+  .content {
+    .plan-select {
+      padding: 5px;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+}

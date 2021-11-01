@@ -1,0 +1,39 @@
+%btn {
+  display: block;
+  padding: 12px 20px;
+  border-radius: $radius;
+  margin-bottom: 10px;
+  text-decoration: none;
+
+}
+
+.btn-primary {
+  @extend %btn;
+  background-color: $primaty-accent;
+  color: #fff;
+  @include box-shadow(0px 23px 44px 3px hsl(225, 28%, 68%));
+
+  &:hover {
+    background-color: lighten($primaty-accent, 10%);
+
+  }
+}
+
+.btn-secondary {
+  @extend %btn;
+  color: rgba(0, 0, 0, .6);
+
+  &:hover {
+    color: $secondary-accent;
+  }
+
+}
+
+.btn-inline {
+  color: hsl(273, 91%, 39%);
+
+  &:hover {
+    text-decoration: none;
+    opacity: .7;
+  }
+}
